@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "@langchain/community": "^0.0.55",
+    "@langchain/mongodb": "^0.0.1",
+    "@langchain/openai": "^0.0.28",
+    "@langchain/redis": "^0.0.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.1.36",
+    "mime-types": "^2.1.35",
+    "mongodb": "^6.6.1",
+    "nuvemshop": "^1.0.3",
+    "openai": "^4.40.2",
+    "pandas-js": "^0.2.4",
+    "readline-sync": "^1.4.10",
+    "redis": "^4.6.13",
+    "sharp": "^0.33.3",
+    "string-strip-html": "^13.4.8",
+    "venom-bot": "github:orkestral/venom"
+  },
+  "scripts": {
+    "dev": "node --watch app.js",
+    "start": "node --experimental-detect-module chatOpenAI.js"
+  },
+  "type": "module"
+}
